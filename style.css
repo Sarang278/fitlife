@@ -1,0 +1,51 @@
+body{
+  
+  
+}
+.hero{
+    background-color: rgb(252,143,84);
+    color: rgb(244, 246, 243); 
+    padding: 4rem 0;
+
+}
+
+nav{
+    color: rgb(13, 12, 12);
+    background-color: rgb(170,84,134);
+    
+    
+}
+
+.card{
+    padding-bottom: 10px;
+    background-color: rgb(253,231,187);
+}
+
+.contact{
+    \
+}
+
+
+
+
+.carousel-inner{
+    width: 60%;
+    height: 30%;
+    margin: 0 auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+
+}
+
+body{
+    background-color: rgb(77, 77, 77);
+}
+
+.footer{
+    padding-top: 10px;
+    margin: 10px;
+}
+
+.card-bg-white{
+    background-color: rgb(251,244,219);
+}
