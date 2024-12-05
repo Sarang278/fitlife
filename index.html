@@ -192,6 +192,32 @@
 
 
 
+    <div class="container d-flex justify-content-center align-items-center" style="min-height: 10vh;">
+        <form class="w-50 p-4 mb-3 mt-3 border rounded">
+            <div class="mb-3">
+                <label for="emailInput" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="emailInput" aria-describedby="emailHelp" required>
+                <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+            </div>
+            <div class="mb-3">
+                <label for="passwordInput" class="form-label">Password</label>
+                <input type="password" class="form-control" id="passwordInput" required>
+            </div>
+            <div class="mb-3 form-check">
+                <input type="checkbox" class="form-check-input" id="termsCheck" required>
+                <label class="form-check-label" for="termsCheck">I agree to the terms and conditions</label>
+            </div>
+            <div class="text-end">
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </div>
+        </form>
+    </div>
+
+
+
+
+
+
     <footer class="bg-dark text-white py-5">
         <div class="container">
             <div class="row">
@@ -229,6 +255,8 @@
                 <p>&copy; 2024 FitLife Gym. All rights reserved.</p>
             </div>
         </div>
+
+        <section class="text-center pt-2 ">created by <span>@Sarang</span></section>
     </footer>
 
     <!-- Add Bootstrap Icons -->

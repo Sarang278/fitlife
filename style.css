@@ -21,8 +21,20 @@ nav{
     background-color: rgb(253,231,187);
 }
 
-.contact{
-    \
+#btn{
+    padding-left: 20rem;
+    padding-bottom: 1rem;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+}
+
+label{
+    padding-left: 1rem;
+}
+
+button{
+    padding-left: 22rem;
 }
 
 
@@ -48,4 +60,7 @@ body{
 
 .card-bg-white{
     background-color: rgb(251,244,219);
+}
+.w-50.p-4.mb-3.mt-3.border.rounded{
+    color: aliceblue;
 }
